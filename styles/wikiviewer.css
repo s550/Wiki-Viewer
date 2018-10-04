@@ -1,0 +1,279 @@
+html{
+font-family: 'Roboto', cursive;
+/*background-color: #31303e;*/
+height: 100%;
+}
+
+html a{
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+html a:hover{
+	text-decoration: none;
+	color: #31303e;
+}
+
+
+
+#rando:hover{
+	background-color: #fff;
+	color: #31303e;
+}
+
+/*#rando:focused{
+background-color: #fff;
+color: #31303e;
+text-decoration: none;
+}
+*/
+
+html body{
+/*background-color: #7fff00;*/
+font-family: 'Roboto', cursive;
+color: #31303e;
+margin: 20px 20px;
+height: 100%;
+background: no-repeat center/100% url("http://i.imgur.com/fo3B2yt.jpg");
+/*background-size: cover;*/
+}
+
+#rando{
+background-color: #31303e;
+color: #fff;
+border-radius: 3px;
+
+}
+
+.randop{
+text-align: center;
+margin-top: 100px;
+/*margin-bottom: 30px;*/
+}
+
+.entry{
+
+width: 80%;
+min-width: 50%;
+border: 1px solid #31303e;
+
+}
+.trial{
+background-color: #fff;
+}
+.bs{
+
+}
+
+#one{
+text-align: center;
+background-color: rgba(204,204,204,0.5);
+font-family: ;
+font-size: ;
+font-weight: ;
+/*border: 1px solid #000;*/
+width: 100%;
+border:solid 1px #fff;
+/*width:350px;*/
+margin:auto;
+border-bottom:none;
+background:linear-gradient(white,white) bottom /* left or right or else */ no-repeat;
+background-size:50% 1px;
+}
+
+#two{
+text-align: center;
+background-color: rgba(204,204,204,0.5);
+font-family: ;
+font-size: ;
+font-weight: ;
+/*border: 1px solid #000;*/
+width: 100%;
+border:solid 1px #fff;
+/*width:350px;*/
+margin:auto;
+border-bottom:none;
+border-top: none;
+background:linear-gradient(white,white) bottom /* left or right or else */ no-repeat;
+background-size:50% 1px;
+}
+
+#three{
+text-align: center;
+background-color: rgba(204,204,204,0.5);
+font-family: ;
+font-size: ;
+font-weight: ;
+/*border: 1px solid #000;*/
+width: 100%;
+border:solid 1px #fff;
+/*width:350px;*/
+margin:auto;
+border-bottom:none;
+border-top: none;
+background:linear-gradient(white,white) bottom /* left or right or else */ no-repeat;
+background-size:50% 1px;
+}
+
+#four{
+text-align: center;
+background-color: rgba(204,204,204,0.5);
+font-family: ;
+font-size: ;
+font-weight: ;
+width: 100%;
+border:solid 1px #fff;
+margin:auto;
+border-bottom:none;
+border-top: none;
+background:linear-gradient(white,white) bottom /* left or right or else */ no-repeat;
+background-size:50% 1px;
+}
+
+#five{
+text-align: center;
+background-color: rgba(204,204,204,0.5);
+font-family: ;
+font-size: ;
+font-weight: ;
+width: 100%;
+border:solid 1px #fff;
+margin:auto;
+border-bottom:none;
+border-top: none;
+background:linear-gradient(white,white) bottom /* left or right or else */ no-repeat;
+background-size:50% 1px;
+}
+
+#six{
+text-align: center;
+background-color: rgba(204,204,204,0.5);
+font-family: ;
+font-size: ;
+font-weight: ;
+/*border: 1px solid #000;*/
+width: 100%;
+border:solid 1px #fff;
+/*width:350px;*/
+margin:auto;
+border-bottom:none;
+border-top: none;
+background:linear-gradient(white,white) bottom /* left or right or else */ no-repeat;
+background-size:50% 1px;
+
+}
+
+#seven{
+text-align: center;
+background-color: rgba(204,204,204,0.5);
+font-family: ;
+font-size: ;
+font-weight: ;
+/*border: 1px solid #000;*/
+width: 100%;
+border:solid 1px #fff;
+/*width:350px;*/
+margin:auto;
+border-bottom:none;
+border-top: none;
+background:linear-gradient(white,white) bottom /* left or right or else */ no-repeat;
+background-size:50% 1px;
+}
+/* background: rgb(204, 204, 204); use bottom one
+    background: rgba(204, 204, 204, 0.5);*/
+#eight{
+text-align: center;
+background-color: rgba(204,204,204,0.5);
+font-family: ;
+font-size: ;
+font-weight: ;
+/*border: 1px solid #000;*/
+width: 100%;
+border:solid 1px #fff;
+/*width:350px;*/
+margin:auto;
+border-bottom:none;
+border-top: none;
+background:linear-gradient(white,white) bottom /* left or right or else */ no-repeat;
+background-size:50% 1px;
+}
+
+#nine{
+text-align: center;
+background-color: rgba(204,204,204,0.5);
+font-family: ;
+font-size: ;
+font-weight: ;
+/*border: 1px solid #000;*/
+width: 100%;
+border:solid 1px #fff;
+/*width:350px;*/
+margin:auto;
+border-bottom:none;
+border-top: none;
+background:linear-gradient(white,white) bottom /* left or right or else */ no-repeat;
+background-size:50% 1px;
+}
+
+#ten{
+text-align: center;
+/*background-color: rgba(204,204,204,0.5) !important;*/
+/*background-color: #fff !important;*/
+font-family: ;
+font-size: ;
+font-weight: ;
+width: 100%;
+border:solid 1px #fff;
+margin:auto;
+border-top: none;
+}
+/*apparently leaving tens rgba alone and letting it inherit fixed the problem*/
+/*must find the rgba for white. When i continute I need to finish making everything transparant and change the link text to black or that grey color 31303e*/
+/*then i must fix margins for everything. pretty up the random link and make my text box and button look nice as well as the h1 then im done. */
+/*opacity sets the total opacity and cannot be modified*/
+/*it is better to set the background color to an rgba value which can be set different from just straight opacity*/
+/*text align and margins need to be set on parent element of the element you are trying to move.*/
+
+.result{
+	/*background-color: #fff;*/
+	margin-top: 40px;
+	display: none;
+	/*opacity: 0.6;*/
+ text-align: center;
+}
+
+#link{
+text-align: center;
+top-margin:30px;
+bottom-margin: 30px;
+}
+
+.title{
+text-align: center;
+margin-top: 40px;
+font-weight: 700;
+font-size: 60px;
+
+}
+
+.something{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.h1{
+text-align: center;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+@media(max-width:632px){
+	body{
+		background: no-repeat center/100% url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/UW2RZ1V36R.jpg");
+	}
+}
+/*top-margin:30px;*/
+/*bottom-margin: 30px;*/
+
+
+/*/
