@@ -2,7 +2,7 @@ html{
 font-family: 'Roboto', cursive;
 /*background-color: #31303e;*/
 /* height: 100% */
-	background: url("http://i.imgur.com/fo3B2yt.jpg") no-repeat center center fixed; 
+/* 	background: url("http://i.imgur.com/fo3B2yt.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,7 +18,7 @@ font-family: 'Roboto', cursive;
   /* Set up positioning */
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
 }
 
 html a{
