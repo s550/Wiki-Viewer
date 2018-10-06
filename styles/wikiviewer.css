@@ -56,6 +56,10 @@ height: 100%;
 /*background-size: cover;*/
 }
 
+.container{
+background: url("https://cdn.pixabay.com/photo/2014/05/02/21/47/workstation-336369_1280.jpg");
+}
+
 #rando{
 background-color: #31303e;
 color: #fff;
