@@ -55,7 +55,7 @@ $('#enter').click(function(event){
 			 write();
 			 $('.result').show('1000', function() {});
 $('.entry').on('keypress',function(event){
-	if(event.which === 13 || ){
+	if(event.which === 13){
 		broom();
 		// broom clears the written stuff so why is it that the old data is not being cleared from storage
 		// because storage is an array since im getting data from there i need to clear storage before i store new data
