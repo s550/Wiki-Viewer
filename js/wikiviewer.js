@@ -31,9 +31,31 @@ var random = {};
 
 // });
 
-
+$('#entry').click(function(event){ 
+			broom();
+	
+		 value = input.val();
+		$.getJSON("https://en.wikipedia.org/w/api.php?action=query&titles="+ value + "&prop=revisions&rvlimit=10&rvprop=content&list=allpages&apfrom=" + value + "&aplimit=10&alprop=ids|title&format=json",function(data){
+			storage = data;
+		
+			pages = storage.query.pages;
+			
+			id = pages[Object.keys(pages)[0]];
+			
+			results = storage.query.allpages;
+			
+			// document.getElementsByClassName('entry').value = ""; 
+			$('.entry').val("");
+			 $.each(results,function(obj,arr){
+			
+				title.push(arr.title);
+				pageid.push(arr.pageid);
+				console.log(obj,arr.pageid);
+			 });
+			 write();
+			 $('.result').show('1000', function() {});
 $('.entry').on('keypress',function(event){
-	if(event.which === 13){
+	if(event.which === 13 || ){
 		broom();
 		// broom clears the written stuff so why is it that the old data is not being cleared from storage
 		// because storage is an array since im getting data from there i need to clear storage before i store new data
