@@ -31,7 +31,7 @@ var random = {};
 
 // });
 
-$('#entry').click(function(event){ 
+$('#enter').click(function(event){ 
 			broom();
 	
 		 value = input.val();
