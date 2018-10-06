@@ -30,7 +30,7 @@ var random = {};
 
 
 // });
-
+// github
 $('#enter').click(function(event){ 
 			broom();
 	
