@@ -56,7 +56,7 @@ height: 100%;
 
 .container{
  background-image:url("https://cdn.pixabay.com/photo/2014/12/27/15/40/office-581131_1280.jpg"); 
-	border: solid 2px #00A989;
+/* 	border: solid 2px #00A989; */
 }
 
 #rando{
