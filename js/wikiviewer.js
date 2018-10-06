@@ -54,7 +54,7 @@ var random = {};
 // 			 });
 // 			 write();
 // 			 $('.result').show('1000', function() {});
-// $('.entry').on('keypress',function(event){
+$('.entry').on('keypress',function(event){
 	if(event.which === 13){
 		broom();
 		// broom clears the written stuff so why is it that the old data is not being cleared from storage
