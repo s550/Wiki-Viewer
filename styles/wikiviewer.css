@@ -285,7 +285,7 @@ text-align: center;
 text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
-@media(min-width:320px) and (max-width:500px){
+@media(min-width:320px) && (max-width:500px){
 	body{
 		background: no-repeat center/100% url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/UW2RZ1V36R.jpg");
 	}
